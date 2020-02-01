@@ -1,0 +1,4 @@
+test-work-react/.git
+test-work-react/node_modules
+!test-work-react/src/node_modules
+test-work-react/build
