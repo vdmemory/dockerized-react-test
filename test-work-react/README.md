@@ -1,7 +1,7 @@
 # Каталог продуктов
 
 ---
-
+DOCKERIZED
 Тестовое приложение-клиент для REST сервиса [smktesting.herokuapp.com](http://smktesting.herokuapp.com/).
 
 Основные функции приложения:
