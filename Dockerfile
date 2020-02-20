@@ -1,4 +1,4 @@
-FROM node:8-alpine as build-stage
+FROM node:alpine as build-stage
 WORKDIR /app
 COPY ./test-work-react/package.json ./test-work-react/yarn.lock /app/
 RUN yarn install
