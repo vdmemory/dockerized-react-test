@@ -19,7 +19,7 @@ import "./main.css";
 
 import * as Sentry from '@sentry/browser';
 
-Sentry.init({dsn: 'https://88553999836d4fe4b7682398d11959c4@sentry.io/2707378', environment: 'dev', debug: true});
+Sentry.init({dsn: 'https://88553999836d4fe4b7682398d11959c4@sentry.io/2707378', environment: 'react', debug: true});
 Sentry.withScope(function (scope) {
     scope.setTag("my-tag", "my value");
     scope.setLevel('warning');
