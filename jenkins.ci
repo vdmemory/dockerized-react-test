@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Build docker image. Build app.') {
             steps {
+            DOCKER_HOST
                 git 'https://github.com/vdmemory/dockerized-react-test.git'
                 sh "docker-compose build --no-cache"
                 sh "docker-compose up -d"
